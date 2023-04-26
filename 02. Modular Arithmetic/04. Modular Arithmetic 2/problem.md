@@ -1,11 +1,11 @@
 We'll pick up from the last challenge and imagine we've picked a modulus ```p```, and we will restrict ourselves to the case when ```p``` is prime.
 
-The integers modulo ```p``` define a field, denoted $ F_p $.
+The integers modulo ```p``` define a field, denoted $F_p$.
 
 >If the modulus is not prime, the set of integers modulo ```n``` define a ring.
 
 
-A finite field $ F_p $ is the set of integers ```{0,1,...,p-1}```, and under both addition and multiplication there is an inverse element ```b``` for every element ```a``` in the set, such that ```a + b = 0``` and ```a * b = 1```.
+A finite field $F_p$ is the set of integers ```{0,1,...,p-1}```, and under both addition and multiplication there is an inverse element ```b``` for every element ```a``` in the set, such that ```a + b = 0``` and ```a * b = 1```.
 
 >Note that the identity element for addition and multiplication is different! This is because the identity when acted with the operator should do nothing: ```a + 0 = a``` and ```a * 1 = a```.
 

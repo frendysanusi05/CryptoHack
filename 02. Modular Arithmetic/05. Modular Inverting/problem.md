@@ -1,4 +1,4 @@
-As we've seen, we can work within a finite field $ F_p $, adding and multiplying elements, and always obtain another element of the field.
+As we've seen, we can work within a finite field $F_p$, adding and multiplying elements, and always obtain another element of the field.
 
 For all elements ```g``` in the field, there exists a unique integer ```d``` such that ```g * d ≡ 1 mod p```.
 
